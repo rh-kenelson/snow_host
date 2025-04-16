@@ -1,4 +1,4 @@
 ---
-plugin: servicenow.itsm.now
+plugin: servicenow.servicenow.now
 query:
   - os: Windows 2003 Standard
