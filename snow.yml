@@ -1,7 +1,4 @@
 ---
 plugin: servicenow.itsm.now
-group_by:
-  manufacturer:
-  os:
-    includes:
-      - "Windows 2003 Standard"
+query:
+  - os: Windows 2003 Standard
