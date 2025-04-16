@@ -1,1 +1,1 @@
-#ServiceNow Inventory test
+#ServiceNow Inventory Demo
