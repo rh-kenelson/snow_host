@@ -4,4 +4,4 @@ group_by:
   manufacturer:
   os:
     includes:
-      - Windows 2000
+      - "Windows 2003 Standard"
