@@ -1,3 +1,4 @@
 ---
 plugin: servicenow.itsm.now
-query: os=Windows Xp
+query: 
+  - os: = Windows XP
