@@ -1,4 +1,6 @@
 ---
 plugin: servicenow.itsm.now
-query: 
-  - os: = Windows XP
+groups:
+  things: >-
+    manufacturer == "Microsoft" and
+    os is "Windows XP"
