@@ -1,4 +1,3 @@
 ---
 plugin: servicenow.itsm.now
-query: 
-  - "os=Windows XP^manufacturer=Microsoft"
+query: os=Windows Xp
