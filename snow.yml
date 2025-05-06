@@ -2,5 +2,5 @@
 plugin: servicenow.itsm.now
 groups:
   things: >-
-    manufacturer == "Microsoft" and
-    os is "Windows XP"
+    manufacturer == Microsoft and
+    os == "Windows XP"
