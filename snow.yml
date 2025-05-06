@@ -4,5 +4,5 @@ query: os=Windows XP^manufacturer=MicrosoftS
 
 columns:
   - name
-  - Manufacturer
-  - Operaiting System 
+  - manufacturer
+  - os 
