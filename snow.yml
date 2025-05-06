@@ -1,2 +1,12 @@
----
 plugin: servicenow.itsm.now
+fields:
+  - name
+  - os
+  - manufacturer
+compose:
+  ansible_host: name  # Optional, or use ip_address if available
+keyed_groups:
+  - key: os
+    prefix: os
+  - key: manufacturer
+    prefix: mfg
