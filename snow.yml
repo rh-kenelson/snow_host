@@ -3,4 +3,4 @@ plugin: servicenow.itsm.now
 query_limit_columns: true
 query:
   - os: = Windows 2003 Standard
-  - os: = Windows 2000
+  - os: = "Windows XP"
