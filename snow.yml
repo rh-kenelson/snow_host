@@ -1,14 +1,3 @@
 plugin: servicenow.itsm.now
-query: |
-  os=Windows XP^manufacturer=Microsoft
-fields:
-  - name
-  - os
-  - manufacturer
-compose:
-  ansible_host: name  # Optional, or use ip_address if available
-keyed_groups:
-  - key: os
-    prefix: os
-  - key: manufacturer
-    prefix: mfg
+query: 'os=Windows XP^manufacturer=Microsoft'
+
