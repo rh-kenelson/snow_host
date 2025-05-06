@@ -1,6 +1,6 @@
 ---
 plugin: servicenow.itsm.now
 query_limit_columns: true
-query:
+query: os=Windows XP^manufacturer=Microsoft 
 #  - os: = Windows 2003 Standard
-  - os=Windows XP ^ Manufacturer=Microsoft
+#  - os=Windows XP ^ Manufacturer=Microsoft
