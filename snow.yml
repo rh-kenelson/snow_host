@@ -1,6 +1,6 @@
 plugin: servicenow.itsm.now
 enhanced: true
-sysparm_query: os=Windows XP^manufacturerSAMEASMicrosoft
+sysparm_query: os=Windows XP^manufacturer=Dell Inc.
 
 columns:
   - name
