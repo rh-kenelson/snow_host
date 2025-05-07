@@ -1,6 +1,6 @@
 plugin: servicenow.itsm.now
 enhanced: true
-sysparm_query: manufacturer!=Microsoft
+sysparm_query: manufacturer=Lenovo^os=Windows XP
 
 columns:
   - name
