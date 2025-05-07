@@ -1,9 +1,9 @@
 plugin: servicenow.itsm.now
 enhanced: true
-sysparm_query: os=Windows XP^class=Server
+sysparm_query: os=Windows XP^environment=Development
 
 columns:
   - name
   - manufacturer
   - os 
-  - class
+  - environment
